@@ -8,13 +8,14 @@
 }
 
 html, body {
-   
+    height: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
 
 body{
-    background: url('../imagens/fundo-azul.jpg') no-repeat top center;
+    background: url(imagens/fundo.jpg) no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
     padding: 80px;
@@ -43,7 +44,7 @@ h1{
         transform: translate(-50%, -50%);
         height: 627px;
         width: 311px;
-        background: url('../imagens/frame-smartphone.png') no-repeat;
+        background: url(imagens/frame-smartphone.png) no-repeat;
 }
 
 iframe#tela{
